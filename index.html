@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- SEO -->
+  <title>AURELION — Strategic Business Coaching for Ambitious Founders</title>
+  <meta name="description" content="AURELION is strategic coaching for established entrepreneurs ready to sharpen their positioning, strengthen their sales systems, and build a business designed for sustainable growth." />
+  <meta name="theme-color" content="#123B2A" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AURELION — Strategic Business Coaching" />
+  <meta property="og:description" content="Strategic coaching for entrepreneurs ready to sharpen their positioning, strengthen their sales systems, and build a business designed for sustainable growth." />
+  <meta property="og:site_name" content="AURELION" />
+  <!-- TODO: replace with your deployed URL + a 1200x630 preview image before launch -->
+  <meta property="og:url" content="https://example.com" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&h=630&q=80" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon: text-based brand mark (A), inline SVG — no external request -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23123B2A'/%3E%3Ctext x='50%25' y='50%25' dy='.08em' font-family='Georgia,serif' font-size='40' fill='%23F7F5EF' text-anchor='middle' dominant-baseline='middle'%3EA%3C/text%3E%3C/svg%3E" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============================ NAV ============================ -->
+  <header class="site-header" id="top">
+    <div class="shell nav">
+      <a class="wordmark" href="#top" aria-label="AURELION home">AURELION</a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#approach">Approach</a>
+        <a href="#coaching">Coaching</a>
+        <a href="#about">About</a>
+        <a class="btn btn-sm btn-solid" href="#book">Book a Call</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <nav aria-label="Mobile">
+        <a href="#approach">Approach</a>
+        <a href="#coaching">Coaching</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn-solid btn-block" href="#book">Book a Strategy Call</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================ HERO ============================ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="shell hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow eyebrow-light">Business Coaching for Ambitious Founders</p>
+          <h1 class="hero-title" id="hero-title">
+            Build a Business<br />
+            That Moves You<br />
+            <span class="accent-line">Forward.</span>
+          </h1>
+          <p class="hero-sub">
+            One-to-one coaching for established founders and service-business owners —
+            turning scattered effort into sharper positioning, a sales process you can
+            repeat, and a clear plan for your next stage.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-ivory" href="#book">Book a Strategy Call</a>
+            <a class="btn btn-ghost-light" href="#approach">Explore the Approach</a>
+          </div>
+          <p class="hero-trust">Clarity in strategy. Confidence in execution.</p>
+        </div>
+
+        <div class="hero-visual reveal" data-delay="1">
+          <figure class="portrait-frame">
+            <span class="portrait-kicker">Alexander Hayes</span>
+            <!-- Remote portrait with graceful CSS fallback if it fails to load -->
+            <img
+              class="portrait-img"
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=900&q=80"
+              alt="Portrait of Alexander Hayes, business coach, in a composed editorial setting"
+              width="900" height="1125"
+              loading="eager"
+              onerror="this.classList.add('img-failed'); this.closest('.portrait-frame').classList.add('has-fallback');"
+            />
+            <span class="portrait-duo" aria-hidden="true"></span>
+            <figcaption class="portrait-caption">Founder &amp; Principal Coach, AURELION</figcaption>
+          </figure>
+        </div>
+
+        <ul class="hero-meta reveal" data-delay="2">
+          <li>Independent practice</li>
+          <li>Remote &amp; in person</li>
+          <li>Selective engagements</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== TRUST / POSITIONING STRIP ===================== -->
+    <section class="strip" aria-label="Positioning">
+      <div class="shell">
+        <p class="strip-lead reveal">For founders who are ready to think bigger.</p>
+        <ol class="principles">
+          <li class="reveal"><span class="pr-num">01</span><span class="pr-text">Clearer positioning</span></li>
+          <li class="reveal" data-delay="1"><span class="pr-num">02</span><span class="pr-text">Stronger sales systems</span></li>
+          <li class="reveal" data-delay="2"><span class="pr-num">03</span><span class="pr-text">More intentional growth</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================ PROBLEM ============================ -->
+    <section class="section problem" aria-labelledby="problem-title">
+      <div class="shell">
+        <div class="section-head masthead reveal">
+          <div class="mast-side">
+            <span class="sec-no">01 / Diagnosis</span>
+            <p class="eyebrow">The next stage requires a different approach</p>
+          </div>
+          <h2 class="section-title" id="problem-title">Working harder isn't<br />always the answer.</h2>
+          <p class="section-lede">
+            You may already have a good service, a growing client base, and a clear
+            ambition. But the systems that helped you get here may not be the systems
+            that help you move forward.
+          </p>
+        </div>
+
+        <div class="cards-3">
+          <article class="card reveal">
+            <span class="card-num">01</span>
+            <h3 class="card-title">Unclear Positioning</h3>
+            <p>When your offer sounds like everyone else's, the right clients have a harder time understanding why they should choose you.</p>
+          </article>
+          <article class="card reveal" data-delay="1">
+            <span class="card-num">02</span>
+            <h3 class="card-title">Inconsistent Sales</h3>
+            <p>Without a repeatable sales process, business development can become unpredictable and unnecessarily stressful.</p>
+          </article>
+          <article class="card reveal" data-delay="2">
+            <span class="card-num">03</span>
+            <h3 class="card-title">Growth Without Structure</h3>
+            <p>As your business evolves, scattered priorities and inefficient processes can make progress harder to sustain.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ APPROACH ============================ -->
+    <section class="section approach" id="approach" aria-labelledby="approach-title">
+      <div class="shell">
+        <div class="section-head masthead reveal">
+          <div class="mast-side">
+            <span class="sec-no">02 / Method</span>
+            <p class="eyebrow">A more intentional way forward</p>
+          </div>
+          <h2 class="section-title" id="approach-title">Strategy first.<br />Sustainable progress follows.</h2>
+          <p class="section-lede">A three-stage engagement that builds in sequence—each stage earning the next.</p>
+        </div>
+
+        <ol class="stages">
+          <li class="stage reveal">
+            <div class="stage-index"><span class="stage-num">01</span></div>
+            <div class="stage-body">
+              <h3 class="stage-title">Clarify</h3>
+              <p>Define your positioning, identify your best-fit clients, and communicate the value of your offer with greater precision.</p>
+            </div>
+          </li>
+          <li class="stage reveal" data-delay="1">
+            <div class="stage-index"><span class="stage-num">02</span></div>
+            <div class="stage-body">
+              <h3 class="stage-title">Strengthen</h3>
+              <p>Develop a clearer sales process, improve your customer journey, and identify opportunities to make your business more effective.</p>
+            </div>
+          </li>
+          <li class="stage reveal" data-delay="2">
+            <div class="stage-index"><span class="stage-num">03</span></div>
+            <div class="stage-body">
+              <h3 class="stage-title">Scale</h3>
+              <p>Build on what works with more focused priorities, stronger operating systems, and a practical plan for the next stage.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================ COACHING OFFER ============================ -->
+    <section class="section coaching" id="coaching" aria-labelledby="coaching-title">
+      <div class="shell coaching-grid">
+        <div class="coaching-head reveal">
+          <p class="eyebrow"><span class="idx">03</span> The coaching experience</p>
+          <h2 class="section-title" id="coaching-title">Practical guidance<br />for your next stage.</h2>
+          <p class="program-name">The Founder Growth Intensive</p>
+          <p class="section-lede">
+            A focused, one-to-one engagement built around your business — not a fixed
+            curriculum. We work through the commercial decisions that matter most right
+            now, then turn them into a plan you can actually execute.
+          </p>
+          <ul class="format-meta">
+            <li>One-to-one</li>
+            <li>Remote or in person</li>
+            <li>Scope set on your first call</li>
+          </ul>
+          <a class="btn btn-dark" href="#book">Discuss Your Goals</a>
+          <p class="fine-print">
+            Scope and suitability are agreed during your first call. No pricing is
+            published here, and no specific business results are guaranteed.
+          </p>
+        </div>
+
+        <aside class="coaching-dossier reveal" data-delay="1" aria-label="Engagement overview">
+          <div class="dossier-row">
+            <h4>Who it's for</h4>
+            <p>Established founders and service-business owners with real momentum — past
+              the earliest stage — who want sharper positioning and a more reliable way to grow.</p>
+          </div>
+          <div class="dossier-row">
+            <h4>What we focus on</h4>
+            <ul class="dossier-list">
+              <li>Positioning and offer clarity</li>
+              <li>Ideal-client definition</li>
+              <li>Sales-process improvement</li>
+              <li>Customer-journey optimisation</li>
+              <li>Strategic priorities and execution planning</li>
+            </ul>
+          </div>
+          <div class="dossier-row">
+            <h4>What you leave with</h4>
+            <p>A clearer positioning statement, a sales process you can repeat, and a
+              prioritised plan for your next stage.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============================ ABOUT ============================ -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="shell about-grid">
+        <div class="about-visual reveal">
+          <figure class="portrait-frame portrait-frame--alt">
+            <img
+              class="portrait-img"
+              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80"
+              alt="Alexander Hayes seated, in a considered portrait reflecting a thoughtful coaching practice"
+              width="800" height="1000"
+              loading="lazy"
+              onerror="this.classList.add('img-failed'); this.closest('.portrait-frame').classList.add('has-fallback');"
+            />
+            <span class="portrait-duo" aria-hidden="true"></span>
+          </figure>
+        </div>
+
+        <div class="about-copy reveal" data-delay="1">
+          <p class="eyebrow"><span class="idx">04</span> A thoughtful partner in your growth</p>
+          <h2 class="section-title" id="about-title">Build with intention.</h2>
+          <p>
+            Growing a business creates a different set of challenges at every stage.
+            The decisions that once felt straightforward can become more complex as
+            your ambitions, responsibilities, and opportunities expand.
+          </p>
+          <p>
+            My approach is built around clarity, practical strategy, and focused
+            execution—helping entrepreneurs make better decisions about what matters next.
+          </p>
+          <ul class="principle-list">
+            <li>Honest, thoughtful guidance.</li>
+            <li>Practical strategies over empty promises.</li>
+            <li>Progress built on clear priorities.</li>
+          </ul>
+          <a class="btn btn-dark" href="#approach">Get to Know the Approach</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ PROCESS ============================ -->
+    <section class="section process" aria-labelledby="process-title">
+      <div class="shell">
+        <div class="section-head center reveal">
+          <span class="sec-no">Getting started</span>
+          <h2 class="section-title" id="process-title">A straightforward place to start.</h2>
+          <p class="section-lede">From first message to working together — a simple,
+            low-pressure path with no obligation to continue.</p>
+        </div>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step-num">01</span>
+            <h3 class="step-title">Start a Conversation</h3>
+            <p>Tell me about your business, your priorities, and where you want to go next.</p>
+          </li>
+          <li class="step reveal" data-delay="1">
+            <span class="step-num">02</span>
+            <h3 class="step-title">Explore the Opportunity</h3>
+            <p>Discuss your current challenges and identify whether coaching is the right fit.</p>
+          </li>
+          <li class="step reveal" data-delay="2">
+            <span class="step-num">03</span>
+            <h3 class="step-title">Define Your Next Steps</h3>
+            <p>If there's a mutual fit, outline a practical path forward.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================ FAQ ============================ -->
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="shell faq-grid">
+        <div class="faq-head reveal">
+          <p class="eyebrow"><span class="idx">05</span> Questions</p>
+          <h2 class="section-title" id="faq-title">Clear answers,<br />before we begin.</h2>
+        </div>
+
+        <div class="accordion reveal" data-delay="1">
+          <div class="acc-item">
+            <h3>
+              <button class="acc-trigger" aria-expanded="false" aria-controls="faq-1" id="faq-1-btn">
+                <span>Who is this coaching for?</span>
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-1" role="region" aria-labelledby="faq-1-btn" hidden>
+              <p>The coaching is designed for entrepreneurs and service-business owners who want greater clarity in their positioning, sales process, and growth priorities.</p>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <h3>
+              <button class="acc-trigger" aria-expanded="false" aria-controls="faq-2" id="faq-2-btn">
+                <span>Is this suitable for an early-stage business?</span>
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-2" role="region" aria-labelledby="faq-2-btn" hidden>
+              <p>Suitability depends on your business model, current challenges, and objectives. An initial conversation helps determine whether the approach is appropriate.</p>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <h3>
+              <button class="acc-trigger" aria-expanded="false" aria-controls="faq-3" id="faq-3-btn">
+                <span>What happens during the first call?</span>
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-3" role="region" aria-labelledby="faq-3-btn" hidden>
+              <p>We discuss your business, what you're trying to achieve, and the challenges you're currently facing. The goal is to determine whether working together makes sense.</p>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <h3>
+              <button class="acc-trigger" aria-expanded="false" aria-controls="faq-4" id="faq-4-btn">
+                <span>Are specific business results guaranteed?</span>
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-4" role="region" aria-labelledby="faq-4-btn" hidden>
+              <p>No. Business outcomes depend on many factors. The focus is on providing strategic guidance and helping you develop a clearer, more practical approach.</p>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <h3>
+              <button class="acc-trigger" aria-expanded="false" aria-controls="faq-5" id="faq-5-btn">
+                <span>How do I get started?</span>
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="faq-5" role="region" aria-labelledby="faq-5-btn" hidden>
+              <p>Use the booking button to arrange an initial conversation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ FINAL CTA / BOOK ============================ -->
+    <section class="section final-cta" id="book" aria-labelledby="cta-title">
+      <div class="shell final-inner">
+        <p class="eyebrow eyebrow-light reveal">Book a strategy call</p>
+        <h2 class="cta-title reveal" id="cta-title">
+          Your next stage starts<br />with a clearer plan.
+        </h2>
+        <p class="cta-sub reveal">
+          Let's discuss where your business is today, where you want to take it,
+          and what might help you move forward.
+        </p>
+
+        <div class="cta-actions reveal">
+          <!-- data-booking-url is read by script.js. Set it to your Calendly / Cal.com / SavvyCal link. -->
+          <a class="btn btn-ivory btn-lg" id="bookingCta" href="#contact" data-booking-url="">Book a Strategy Call</a>
+        </div>
+        <p class="cta-fine reveal">No pressure. Just a thoughtful conversation about your next steps.</p>
+
+        <!-- Fallback inquiry pathway (used when no booking URL is configured) -->
+        <form class="inquiry reveal" id="inquiry" aria-labelledby="inquiry-title" novalidate>
+          <p class="inquiry-title" id="inquiry-title">Prefer to send a note? Start here.</p>
+          <div class="field-row">
+            <div class="field">
+              <label for="f-name">Name</label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="f-email">Email</label>
+              <input id="f-email" name="email" type="email" autocomplete="email" required />
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-msg">What would you like to work on?</label>
+            <textarea id="f-msg" name="message" rows="3"></textarea>
+          </div>
+          <button class="btn btn-ivory" type="submit">Send Inquiry</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          <p class="inquiry-note">Portfolio demo — no scheduler or server is connected yet,
+            so submitting opens your email app. See the code comments to wire up a booking link or form endpoint.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="site-footer" id="contact">
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <span class="wordmark">AURELION</span>
+        <p>Strategic coaching for entrepreneurs building with intention.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer">
+        <h4>Explore</h4>
+        <a href="#approach">Approach</a>
+        <a href="#coaching">Coaching</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <!-- TODO: replace placeholder email before launch -->
+        <a href="mailto:hello@aurelion.example">hello@aurelion.example</a>
+        <div class="footer-social">
+          <!-- TODO: replace placeholder social URLs before launch -->
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="shell footer-base">
+      <p>&copy; <span id="year"></span> AURELION. A fictional brand created for portfolio demonstration.</p>
+      <p class="footer-credit">Design &amp; build — Harith Website Optimization.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
